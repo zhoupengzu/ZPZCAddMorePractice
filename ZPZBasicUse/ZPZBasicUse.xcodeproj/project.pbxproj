@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DBC94CAF1FCBA55800956719 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CAE1FCBA55800956719 /* main.cpp */; };
 		DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */; };
+		DBC94CBA1FCBBB6F00956719 /* LambdaPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB81FCBBB6F00956719 /* LambdaPractice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DBC94CAE1FCBA55800956719 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForCyclePractice.cpp; sourceTree = "<group>"; };
 		DBC94CB61FCBB1BA00956719 /* ForCyclePractice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ForCyclePractice.hpp; sourceTree = "<group>"; };
+		DBC94CB81FCBBB6F00956719 /* LambdaPractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LambdaPractice.cpp; sourceTree = "<group>"; };
+		DBC94CB91FCBBB6F00956719 /* LambdaPractice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LambdaPractice.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				DBC94CAE1FCBA55800956719 /* main.cpp */,
+				DBC94CB81FCBBB6F00956719 /* LambdaPractice.cpp */,
+				DBC94CB91FCBBB6F00956719 /* LambdaPractice.hpp */,
 				DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */,
 				DBC94CB61FCBB1BA00956719 /* ForCyclePractice.hpp */,
 			);
@@ -126,6 +131,7 @@
 			files = (
 				DBC94CAF1FCBA55800956719 /* main.cpp in Sources */,
 				DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */,
+				DBC94CBA1FCBBB6F00956719 /* LambdaPractice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
