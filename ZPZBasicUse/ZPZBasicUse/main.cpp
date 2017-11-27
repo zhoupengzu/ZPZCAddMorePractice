@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "ForCyclePractice.hpp"
+#include "RandPractice.hpp"
 
 using namespace std;  //使用std命名空间
 
@@ -22,7 +23,8 @@ int main(int argc, const char * argv[]) {
 //    forPractice01();
 //    forPractice02();
 //    forPractice03();
-    swapTwoValue();
+//    swapTwoValue();
+    rand_practice();
     return 0;
 }
 
