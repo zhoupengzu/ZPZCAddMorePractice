@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB6382DF1FCD0C31002537D9 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6382DD1FCD0C31002537D9 /* Person.cpp */; };
 		DBC94CAF1FCBA55800956719 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CAE1FCBA55800956719 /* main.cpp */; };
 		DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */; };
 		DBC94CBA1FCBBB6F00956719 /* LambdaPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB81FCBBB6F00956719 /* LambdaPractice.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB6382DD1FCD0C31002537D9 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		DB6382DE1FCD0C31002537D9 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 		DBC94CAB1FCBA55800956719 /* ZPZBasicUse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZPZBasicUse; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC94CAE1FCBA55800956719 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForCyclePractice.cpp; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				DBC94CAE1FCBA55800956719 /* main.cpp */,
+				DB6382DD1FCD0C31002537D9 /* Person.cpp */,
+				DB6382DE1FCD0C31002537D9 /* Person.hpp */,
 				DBC94CBE1FCBC39F00956719 /* QuotePractice.cpp */,
 				DBC94CBF1FCBC39F00956719 /* QuotePractice.hpp */,
 				DBC94CBB1FCBBF5100956719 /* RandPractice.cpp */,
@@ -143,6 +148,7 @@
 				DBC94CAF1FCBA55800956719 /* main.cpp in Sources */,
 				DBC94CBD1FCBBF5100956719 /* RandPractice.cpp in Sources */,
 				DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */,
+				DB6382DF1FCD0C31002537D9 /* Person.cpp in Sources */,
 				DBC94CBA1FCBBB6F00956719 /* LambdaPractice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 #include <iostream>
 #include "ForCyclePractice.hpp"
 #include "RandPractice.hpp"
+#include "Person.hpp"
 
 using namespace std;  //使用std命名空间
 
@@ -18,14 +19,29 @@ void swap_02(int &a, int &b);
 void swap_03(int * a, int * b);
 void swap_04(int * a, int * b);
 
+void structInit();
+
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    forPractice01();
 //    forPractice02();
 //    forPractice03();
 //    swapTwoValue();
-    rand_practice();
+//    rand_practice();
+    structInit();
     return 0;
+}
+
+void structInit() {
+    struct Person person1 = {
+        "zhoupengzu",
+        20
+    };
+    cout << person1.name << endl;
+    struct Person person2 = Person("zhoupengzu", 30);
+    cout << person2.name << endl;
+    struct Person person3 = Person("zhoupengzu", 40, 100);
+    cout << person3.score << endl;
 }
 
 void swapTwoValue(){
