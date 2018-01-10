@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6382DF1FCD0C31002537D9 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6382DD1FCD0C31002537D9 /* Person.cpp */; };
+		DBA72B5C2005FB8E00C4451C /* TemplateClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBA72B5A2005FB8E00C4451C /* TemplateClass.cpp */; };
 		DBC94CAF1FCBA55800956719 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CAE1FCBA55800956719 /* main.cpp */; };
 		DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */; };
 		DBC94CBA1FCBBB6F00956719 /* LambdaPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC94CB81FCBBB6F00956719 /* LambdaPractice.cpp */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		DB6382DD1FCD0C31002537D9 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		DB6382DE1FCD0C31002537D9 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		DBA72B5A2005FB8E00C4451C /* TemplateClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateClass.cpp; sourceTree = "<group>"; };
+		DBA72B5B2005FB8E00C4451C /* TemplateClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemplateClass.hpp; sourceTree = "<group>"; };
 		DBC94CAB1FCBA55800956719 /* ZPZBasicUse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZPZBasicUse; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC94CAE1FCBA55800956719 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DBC94CB51FCBB1BA00956719 /* ForCyclePractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForCyclePractice.cpp; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				DBC94CAE1FCBA55800956719 /* main.cpp */,
+				DBA72B5A2005FB8E00C4451C /* TemplateClass.cpp */,
+				DBA72B5B2005FB8E00C4451C /* TemplateClass.hpp */,
 				DB6382DD1FCD0C31002537D9 /* Person.cpp */,
 				DB6382DE1FCD0C31002537D9 /* Person.hpp */,
 				DBC94CBE1FCBC39F00956719 /* QuotePractice.cpp */,
@@ -146,6 +151,7 @@
 			files = (
 				DBC94CC01FCBC39F00956719 /* QuotePractice.cpp in Sources */,
 				DBC94CAF1FCBA55800956719 /* main.cpp in Sources */,
+				DBA72B5C2005FB8E00C4451C /* TemplateClass.cpp in Sources */,
 				DBC94CBD1FCBBF5100956719 /* RandPractice.cpp in Sources */,
 				DBC94CB71FCBB1BA00956719 /* ForCyclePractice.cpp in Sources */,
 				DB6382DF1FCD0C31002537D9 /* Person.cpp in Sources */,
@@ -262,6 +268,7 @@
 		DBC94CB31FCBA55800956719 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +278,7 @@
 		DBC94CB41FCBA55800956719 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				PRODUCT_NAME = "$(TARGET_NAME)";

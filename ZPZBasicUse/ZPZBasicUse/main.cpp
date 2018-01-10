@@ -10,6 +10,7 @@
 #include "ForCyclePractice.hpp"
 #include "RandPractice.hpp"
 #include "Person.hpp"
+#include "TemplateClass.hpp"
 
 using namespace std;  //使用std命名空间
 
@@ -20,6 +21,23 @@ void swap_03(int * a, int * b);
 void swap_04(int * a, int * b);
 
 void structInit();
+void practiceSwapUseTemplate();
+
+enum Orders{
+    First = 1,
+    Second = 2
+};
+template <typename T, Orders order>
+void templatePractice1(T &a, T &b) {
+    if (order == First) {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
+    return;
+}
+
+void practiceClassTemplate();
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,8 +46,27 @@ int main(int argc, const char * argv[]) {
 //    forPractice03();
 //    swapTwoValue();
 //    rand_practice();
-    structInit();
+//    structInit();
+//    practiceSwapUseTemplate();
+    practiceClassTemplate();
     return 0;
+}
+
+void practiceClassTemplate() {
+    int a = 10;
+    int b = 20;
+    TemplateClass<int> tp;
+    tp.changeData<ChangeStatusChange>(a, b);
+    cout << a << endl;
+    tp.changeData<ChangeStatusAdd>(a, b);
+    cout << a << endl;
+}
+
+void practiceSwapUseTemplate() {
+    int a = 10;
+    int b = 20;
+    templatePractice1<int, First>(a, b);
+    cout << a << endl;
 }
 
 void structInit() {
